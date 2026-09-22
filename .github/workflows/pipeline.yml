@@ -226,7 +226,7 @@ jobs:
           wait_for_environment_recovery: 90
           use_existing_version_if_available: false
           application_name: DevopsFiap-0n
-          environment_name: DevopsFiap-0n-env-1
+          environment_name: DevopsFiap-0n-env1
           version_label: ${{ github.sha }}
           region: us-east-1
           deployment_package: ./target/demo-0.0.2.7-SNAPSHOT.jar
